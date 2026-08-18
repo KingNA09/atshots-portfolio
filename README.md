@@ -1,4 +1,4 @@
-# Mara Vance — Sports Photography Portfolio
+# Albert Amoako — Sports Photography Portfolio
 
 A React + Vite sports photography portfolio inspired by the supplied reference layout: dark editorial styling, oversized typography, orange accent, full-screen hero, filterable gallery, services, about and contact sections.
 
