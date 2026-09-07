@@ -1305,5 +1305,22 @@ export const collections = [
         "category": "TRACK"
       }
     ]
-  }
+  },
+
+   {
+    "name": "NIKE TOMA - FINAL",
+    "slug": "nike-toma-final",
+    "photos": [
+      {
+        "src": "/images/nike-toma-final/_DSC8405.jpg",
+        "title": "DSC 8405",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8407.jpg",
+        "title": "DSC 8407",
+        "category": "nike-toma-final"
+      },
+    ]
+  },
 ];
