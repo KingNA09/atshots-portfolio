@@ -659,13 +659,15 @@ footer button {
 @media (max-width: 560px) {
   .brand em { display: none; }
 
-  .hero {
-    height: 680px;
-    min-height: 620px;
-  }
+.hero {
+  height: min(72svh, 540px);
+  min-height: 500px;
+}
 
-  .hero-image { object-position: 62% center; }
-
+ .hero-image {
+  object-position: center;
+  transform: none;
+}
   .hero h1 {
     font-size: clamp(58px, 20vw, 88px);
   }
