@@ -1386,6 +1386,21 @@ export const collections = [
         "title": "DSC 9046",
         "category": "nike-toma-final"
       },
+      {
+        "src": "/images/nike-toma-final/_DSC9198.jpg",
+        "title": "DSC 9198",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC9256.jpg",
+        "title": "DSC 9256",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC9267.jpg",
+        "title": "DSC 9267",
+        "category": "nike-toma-final"
+      },
     ]
   },
 ];
