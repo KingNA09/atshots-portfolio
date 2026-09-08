@@ -1456,7 +1456,46 @@ export const collections = [
         "title": "DSC 9135",
         "category": "nike-toma-final"
       },
-      
+      {
+        "src": "/images/nike-toma-final/_DSC8186.jpg",
+        "title": "DSC 8186",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8193.jpg",
+        "title": "DSC 8193",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8222.jpg",
+        "title": "DSC 8222",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8279.jpg",
+        "title": "DSC 8279",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8294.jpg",
+        "title": "DSC 8294",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8300.jpg",
+        "title": "DSC 8300",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8870.jpg",
+        "title": "DSC 8870",
+        "category": "nike-toma-final"
+      },
+      {
+        "src": "/images/nike-toma-final/_DSC8939.jpg",
+        "title": "DSC 8939",
+        "category": "nike-toma-final"
+      },
     ]
   },
 ];
