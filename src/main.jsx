@@ -77,8 +77,6 @@ function App() {
           <button onClick={() => scrollTo('about')}>ABOUT</button>
           <button onClick={() => scrollTo('contact')}>CONTACT</button>
         </nav>
-        <button className="book top-book" onClick={() => scrollTo('contact')}>BOOK A SHOOT</button>
-        <button className="menu" onClick={() => setMenuOpen(v => !v)} aria-label="Toggle menu">{menuOpen ? '×' : '☰'}</button>
       </header>
 
       <main>
