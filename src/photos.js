@@ -157,7 +157,67 @@ export const collections = [
         "src": "/images/1-1-coaching/_DSC8080.jpg",
         "title": "DSC 8080",
         "category": "1-1 COACHING"
-      }
+      },
+      {
+        "src": "/images/1-1-coaching/9AADAC41-7A4F-4D9F-A5A4-FD8FF106206F.jpg",
+        "title": "9AADAC41-7A4F-4D9F-A5A4-FD8FF106206F",
+        "category": "1-1 COACHING"
+      },
+      {
+         "src": "/images/1-1-coaching/C9878184-340D-4994-86B4-808AA547DA75.jpg",
+        "title": "C9878184-340D-4994-86B4-808AA547DA75",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/EF0CB445-6A80-4C1F-A8E9-1C57AB395992.jpg",
+        "title": "EF0CB445-6A80-4C1F-A8E9-1C57AB395992",
+        "category": "1-1 COACHING"
+      },
+      {
+         "src": "/images/1-1-coaching/EF9BF49E-3BEC-4F88-99A4-5B1A64E7C41C.jpg",
+        "title": "EF9BF49E-3BEC-4F88-99A4-5B1A64E7C41C",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1590.JPG",
+        "title": "IMG 1590",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1591.JPG",
+        "title": "IMG 1591",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1592.JPG",
+        "title": "IMG 1592",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1595.JPG",
+        "title": "IMG 1595",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1597.JPG",
+        "title": "IMG 1597",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1598.JPG",
+        "title": "IMG 1598",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1599.JPG",
+        "title": "IMG 1599",
+        "category": "1-1 COACHING"
+      },
+      {
+        "src": "/images/1-1-coaching/IMG_1601.JPG",
+        "title": "IMG 1601",
+        "category": "1-1 COACHING"
+      },
     ]
   },
 
