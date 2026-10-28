@@ -33,11 +33,17 @@ function App() {
 
   const filters = ['All', ...collections.map(c => c.name)];
   const visible = useMemo(
-  () => active === 'All'
-    ? orderedAllPhotos
-    : allPhotos.filter(p => p.collection === active),
-  [active]
-);
+    () => active === 'All'
+      ? orderedAllPhotos
+      : allPhotos.filter(p => p.collection === active),
+    [active]
+  );
+
+  const nextPhoto = (current, direction) => {
+    const list = active === 'All' ? orderedAllPhotos : allPhotos.filter(p => p.collection === active);
+    const i = list.findIndex(p => p.src === current?.src);
+    return list[(i + direction + list.length) % list.length];
+  };
 
   useEffect(() => {
     document.body.style.overflow = lightbox ? 'hidden' : '';
@@ -53,20 +59,21 @@ function App() {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [lightbox]);
+  }, [lightbox, active]);
 
-  const nextPhoto = (current, direction) => {
-    const list = active === 'All' ? allPhotos : allPhotos.filter(p => p.collection === active);
-    const i = list.findIndex(p => p.src === current?.src);
-    return list[(i + direction + list.length) % list.length];
-  };
+  useEffect(() => {
+    if (!menuOpen) return;
+    const close = () => setMenuOpen(false);
+    window.addEventListener('scroll', close, { passive: true });
+    return () => window.removeEventListener('scroll', close);
+  }, [menuOpen]);
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     setMenuOpen(false);
   };
 
- return (
+  return (
     <div className="site">
       <header className="nav">
         <button className="brand" onClick={() => scrollTo('home')} aria-label="Go to top">
@@ -77,6 +84,14 @@ function App() {
           <button onClick={() => scrollTo('about')}>ABOUT</button>
           <button onClick={() => scrollTo('contact')}>CONTACT</button>
         </nav>
+        <button
+          className="menu"
+          onClick={() => setMenuOpen(o => !o)}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+        >
+          {menuOpen ? '✕' : '☰'}
+        </button>
       </header>
 
       <main>
@@ -99,25 +114,22 @@ function App() {
             <p className="eyebrow orange">ABOUT ME</p>
             <h2>SPORT IS<br/><span>STORY.</span></h2>
             <p className="lead">
-                <b>TIME WILL TELL</b>
+              <b>TIME WILL TELL</b>
             </p>
             <p>
-               I'm Albert Amoako, an 18 year old London-based sports photographer focused on capturing the energy, emotion, and intensity behind every moment.
-               From a man behind the lens, I create pictures that turns beautiful moments into lasting memories.
+              I'm Albert Amoako, an 18 year old London-based sports photographer focused on capturing the energy, emotion, and intensity behind every moment.
+              From a man behind the lens, I create pictures that turns beautiful moments into lasting memories.
             </p>
             <button className="text-link" onClick={() => scrollTo('contact')}>LET'S WORK TOGETHER <Arrow /></button>
           </div>
           <div className="about-image">
-                 <img 
-                         src="/images/about-me.jpg" 
-                        alt="about-me" 
-                />
+            <img src="/images/about-me.jpg" alt="about-me" />
           </div>
         </section>
 
         <section id="work" className="work section">
           <div className="section-head">
-                <div className="about-number">02</div>
+            <div className="about-number">02</div>
             <div><p className="eyebrow orange"><b>THE MASTERPIECES</b></p><h2>MY WORK</h2></div>
             <p className="section-intro">A collection of stories, campaigns, portraits and moments from the world of sport.</p>
           </div>
@@ -134,7 +146,6 @@ function App() {
           </div>
         </section>
 
-
         <section className="statement">
           <p>EVERY SHOOT HAS A STORY TO TELL<br/><span>MAKE IT COUNT.</span></p>
         </section>
@@ -143,25 +154,33 @@ function App() {
           <div><p className="eyebrow orange">LET'S CREATE MEMORIES</p><h2>HAVE A SHOOT<br/><span>IN MIND?</span></h2></div>
           <div className="contact-side">
             <p>Tell me what you're shooting, where it is and what you need the images to do. I'll get back to you with availability and a tailored approach.</p>
-            <div className="socials"><a href="https://www.instagram.com/atshots.pg/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=albamo142@gmail.com" target="_blank" rel="noopener noreferrer">EMAIL</a></div>
+            <div className="socials">
+              <a href="https://www.instagram.com/atshots.pg/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=albamo142@gmail.com" target="_blank" rel="noopener noreferrer">EMAIL</a>
+            </div>
           </div>
         </section>
       </main>
 
-      <footer><span>© {new Date().getFullYear()} <b>ALBERT AMOAKO | SPORT</b></span><span><b>SPORTS PHOTOGRAPHY / LONDON</b></span><button onClick={() => scrollTo('home')}>BACK TO TOP ↑</button></footer>
+      <footer>
+        <span>© {new Date().getFullYear()} <b>ALBERT AMOAKO | SPORT</b></span>
+        <span><b>SPORTS PHOTOGRAPHY / LONDON</b></span>
+        <button onClick={() => scrollTo('home')}>BACK TO TOP ↑</button>
+      </footer>
 
-      {lightbox && <div className="lightbox" role="dialog" aria-modal="true" onClick={() => setLightbox(null)}>
-        <button className="close" onClick={() => setLightbox(null)} aria-label="Close">×</button>
-        <button className="lb-prev" onClick={(e) => { e.stopPropagation(); setLightbox(nextPhoto(lightbox, -1)); }}>←</button>
-        <figure onClick={e => e.stopPropagation()}>
-          <img src={lightbox.src} alt={`${lightbox.collection} — ${lightbox.title}`} />
-          <figcaption><b>{lightbox.collection}</b><span>{lightbox.title}</span></figcaption>
-        </figure>
-        <button className="lb-next" onClick={(e) => { e.stopPropagation(); setLightbox(nextPhoto(lightbox, 1)); }}>→</button>
-      </div>}
+      {lightbox && (
+        <div className="lightbox" role="dialog" aria-modal="true" onClick={() => setLightbox(null)}>
+          <button className="close" onClick={() => setLightbox(null)} aria-label="Close">×</button>
+          <button className="lb-prev" onClick={(e) => { e.stopPropagation(); setLightbox(nextPhoto(lightbox, -1)); }}>←</button>
+          <figure onClick={e => e.stopPropagation()}>
+            <img src={lightbox.src} alt={`${lightbox.collection} — ${lightbox.title}`} />
+            <figcaption><b>{lightbox.collection}</b><span>{lightbox.title}</span></figcaption>
+          </figure>
+          <button className="lb-next" onClick={(e) => { e.stopPropagation(); setLightbox(nextPhoto(lightbox, 1)); }}>→</button>
+        </div>
+      )}
     </div>
   );
 }
 
 createRoot(document.getElementById('root')).render(<App />);
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

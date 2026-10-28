@@ -656,8 +656,18 @@ footer button {
   }
 }
 
-@media (max-width: 560px) {
-  .brand em { display: none; }
+.brand { 
+  font-size: 17px; 
+  gap: 10px; 
+  white-space: nowrap; 
+}
+
+.brand em {
+  font-size: 10px;
+  letter-spacing: .18em;
+  padding-left: 10px;
+}
+
 
 .hero {
   height: min(72svh, 540px);
@@ -716,7 +726,6 @@ footer button {
     flex-direction: column;
     align-items: flex-start;
   }
-}
 
 @media (hover: none) {
   .photo-meta {
