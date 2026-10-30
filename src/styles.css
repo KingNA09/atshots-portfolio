@@ -95,20 +95,31 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center 18%;
-  transform: scale(1.06);
+  transform: scale(1.02);
 }
 .hero-overlay {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(5,5,5,.42) 0%, rgba(5,5,5,.16) 52%, rgba(5,5,5,.03) 100%),
-    linear-gradient(0deg, rgba(5,5,5,.18) 0%, rgba(5,5,5,.07) 30%, rgba(5,5,5,0) 100%);
+    linear-gradient(
+      90deg,
+      rgba(5, 5, 5, .48) 0%,
+      rgba(5, 5, 5, .20) 55%,
+      rgba(5, 5, 5, .04) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(5, 5, 5, .78) 0%,
+      rgba(5, 5, 5, .30) 35%,
+      rgba(5, 5, 5, 0) 75%
+    );
 }
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 3.5vw 7vh;
+  padding: 0 5vw 8vh;
   width: 100%;
+  max-width: 1600px;
 }
 .eyebrow {
   font-size: 10px;
@@ -136,6 +147,17 @@ footer {
   margin: 0;
   max-width: 900px;
 }
+
+.hero h1 {
+  font-family: 'Anton', Impact, sans-serif;
+  font-size: clamp(36px, 5.5vw, 82px);
+  line-height: .92;
+  letter-spacing: -.025em;
+  text-transform: uppercase;
+  margin: 0;
+  max-width: 1000px;
+}
+
 .hero h1 span,
 .hero h1 strong { display: inline-block; }
 .hero h1 strong {
