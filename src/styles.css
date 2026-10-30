@@ -138,15 +138,6 @@ footer {
 }
 .eyebrow b { color: var(--orange); }
 .orange { color: var(--orange); }
-.hero h1 {
-  font-family: 'Anton', Impact, sans-serif;
-  font-size: clamp(36px, 5vw, 72px);
-  line-height: .88;
-  letter-spacing: -.025em;
-  text-transform: uppercase;
-  margin: 0;
-  max-width: 900px;
-}
 
 .hero h1 {
   font-family: 'Anton', Impact, sans-serif;
@@ -267,6 +258,7 @@ footer {
 }
 .photo-card img {
   width: 100%;
+  height: auto;
   display: block;
   transition: transform .6s cubic-bezier(.2, .7, .2, 1);
   filter: saturate(.96);
@@ -289,12 +281,22 @@ footer {
   opacity: 1;
   transform: none;
 }
-.photo-meta b,
-.photo-meta small { display: block; }
+.photo-meta {
+  padding: 38px 14px 14px;
+}
+
 .photo-meta b {
   font-size: 11px;
-  letter-spacing: .16em;
+  letter-spacing: .14em;
 }
+
+.photo-meta small {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #d0d0d0;
+}
+
 .photo-meta small {
   color: #bbb;
   margin-top: 4px;
@@ -788,6 +790,29 @@ footer button {
     white-space: nowrap;
   }
 
+.about {
+  gap: 24px;
+}
+
+.about-copy {
+  max-width: 100%;
+}
+
+.about h2 {
+  margin-bottom: 24px;
+}
+
+.about .lead {
+  font-size: 19px;
+  margin-bottom: 14px;
+}
+
+.about-copy > p:not(.eyebrow):not(.lead) {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 26px;
+}
+
   .brand em {
     font-size: 10px;
     letter-spacing: .18em;
@@ -824,7 +849,13 @@ footer button {
     padding: 50px 15px 15px;
   }
 
-  .about-image img { height: 430px; }
+  .about-image img {
+  width: 100%;
+  height: clamp(300px, 95vw, 430px);
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 
   .statement { padding: 80px 20px; }
 
