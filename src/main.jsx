@@ -156,7 +156,7 @@ function App() {
           <div className="about-number">01</div>
           <div className="about-copy">
             <p className="eyebrow orange">ABOUT ME</p>
-            <h2>SPORT IS<br/><span>STORY.</span></h2>
+            <h2>SPORT TELLS<br/><span>STORIES</span></h2>
             <p className="lead">
               <b>TIME WILL TELL</b>
             </p>
