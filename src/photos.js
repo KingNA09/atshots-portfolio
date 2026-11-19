@@ -1569,113 +1569,113 @@ export const collections = [
   },
 
   {
-    "name": "MATCHDAYS",
-    "slug": "matchdays",
+    "name": "FA Youth Cup",
+    "slug": "FA Youth Cup",
     "photos": [
       {
-        "src": "/images/Matchdays/6EEA68E5-B96D-4DC2-A0C8-EEC4A39A6DE5.jpg",
+        "src": "/images/FA Youth Cup/6EEA68E5-B96D-4DC2-A0C8-EEC4A39A6DE5.jpg",
         "title": "6EEA68E5-B96D-4DC2-A0C8-EEC4A39A6DE5",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1504.JPG",
+        "src": "/images/FA Youth Cup/IMG_1504.JPG",
         "title": "IMG 1504",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1505.JPG",
+        "src": "/images/FA Youth Cup/IMG_1505.JPG",
         "title": "IMG 1505",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1506.JPG",
+        "src": "/images/FA Youth Cup/IMG_1506.JPG",
         "title": "IMG 1506",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1507.JPG",
+        "src": "/images/FA Youth Cup/IMG_1507.JPG",
         "title": "IMG 1507",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1509.JPG",
+        "src": "/images/FA Youth Cup/IMG_1509.JPG",
         "title": "IMG 1509",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1511.JPG",
+        "src": "/images/FA Youth Cup/IMG_1511.JPG",
         "title": "IMG 1511",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1512.JPG",
+        "src": "/images/FA Youth Cup/IMG_1512.JPG",
         "title": "IMG 1512",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1513.JPG",
+        "src": "/images/FA Youth Cup/IMG_1513.JPG",
         "title": "IMG 1513",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1514.JPG",
+        "src": "/images/FA Youth Cup/IMG_1514.JPG",
         "title": "IMG 1514",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1515.JPG",
+        "src": "/images/FA Youth Cup/IMG_1515.JPG",
         "title": "IMG 1515",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1516.JPG",
+        "src": "/images/FA Youth Cup/IMG_1516.JPG",
         "title": "IMG 1516",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1517.JPG",
+        "src": "/images/FA Youth Cup/IMG_1517.JPG",
         "title": "IMG 1517",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1518.JPG",
+        "src": "/images/FA Youth Cup/IMG_1518.JPG",
         "title": "IMG 1518",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1519.JPG",
+        "src": "/images/FA Youth Cup/IMG_1519.JPG",
         "title": "IMG 1519",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1520.JPG",
+        "src": "/images/FA Youth Cup/IMG_1520.JPG",
         "title": "IMG 1520",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1521.JPG",
+        "src": "/images/FA Youth Cup/IMG_1521.JPG",
         "title": "IMG 1521",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1522.JPG",
+        "src": "/images/FA Youth Cup/IMG_1522.JPG",
         "title": "IMG 1522",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1523.JPG",
+        "src": "/images/FA Youth Cup/IMG_1523.JPG",
         "title": "IMG 1523",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1524.JPG",
+        "src": "/images/FA Youth Cup/IMG_1524.JPG",
         "title": "IMG 1524",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
       {
-        "src": "/images/Matchdays/IMG_1525.JPG",
+        "src": "/images/FA Youth Cup/IMG_1525.JPG",
         "title": "IMG 1525",
-        "category": "MATCHDAYS"
+        "category": "FA Youth Cup"
       },
     ]
   }
