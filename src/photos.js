@@ -354,269 +354,168 @@ export const collections = [
       }
     ]
   },
-
   {
     "name": "BALLER LEAGUE",
     "slug": "baller-league",
     "photos": [
       {
-        "src": "/images/baller-league/542ba3c8-4bbf-454c-a15a-28283ec1eae8.jpg",
-        "title": "542BA3C8-4BBF-454C-A15A-28283EC1EAE8",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_0455.jpg",
-        "title": "IMG 0455",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_0456.jpg",
-        "title": "IMG 0456",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_0457.jpg",
-        "title": "IMG 0457",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_0458.jpg",
-        "title": "IMG 0458",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_2370.jpg",
-        "title": "IMG 2370",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_2384.jpg",
-        "title": "IMG 2384",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_2404.jpg",
-        "title": "IMG 2404",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_2464.jpg",
-        "title": "IMG 2464",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_2474.jpg",
-        "title": "IMG 2474",
-        "category": "BALLER LEAGUE"
-      },
-      {
         "src": "/images/baller-league/img_3043.jpg",
-        "title": "IMG 3043",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3054.jpg",
-        "title": "IMG 3054",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3068.jpg",
-        "title": "IMG 3068",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3219.jpg",
-        "title": "IMG 3219",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3220.jpg",
-        "title": "IMG 3220",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3235.jpg",
-        "title": "IMG 3235",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3236.jpg",
-        "title": "IMG 3236",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/img_3237.jpg",
-        "title": "IMG 3237",
+        "title": "img 3043",
         "category": "BALLER LEAGUE"
       },
       {
         "src": "/images/baller-league/img_3369.jpg",
-        "title": "IMG 3369",
+        "title": "img 3369",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_3370.jpg",
-        "title": "IMG 3370",
+        "src": "/images/baller-league/IMG_2647.JPG",
+        "title": "IMG 2647",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_3372.jpg",
-        "title": "IMG 3372",
+        "src": "/images/baller-league/IMG_2648.JPG",
+        "title": "IMG 2648",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_3376.jpg",
-        "title": "IMG 3376",
+        "src": "/images/baller-league/IMG_2650.JPG",
+        "title": "IMG 2650",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_3391.jpg",
-        "title": "IMG 3391",
+        "src": "/images/baller-league/IMG_2651.JPG",
+        "title": "IMG 2651",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_3411.jpg",
-        "title": "IMG 3411",
+        "src": "/images/baller-league/IMG_2655.JPG",
+        "title": "IMG 2655",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_4322.jpg",
-        "title": "IMG 4322",
+        "src": "/images/baller-league/IMG_2657.JPG",
+        "title": "IMG 2657",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/img_4324.jpg",
-        "title": "IMG 4324",
+        "src": "/images/baller-league/IMG_2658.JPG",
+        "title": "IMG 2658",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC0034.jpg",
-        "title": "DSC 0034",
+        "src": "/images/baller-league/IMG_2659.JPG",
+        "title": "IMG 2659",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC0057.jpg",
-        "title": "DSC 0057",
+        "src": "/images/baller-league/IMG_2660.JPG",
+        "title": "IMG 2660",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC0062.jpg",
-        "title": "DSC 0062",
+        "src": "/images/baller-league/IMG_2661.JPG",
+        "title": "IMG 2661",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC0193.jpg",
-        "title": "DSC 0193",
+        "src": "/images/baller-league/IMG_2662.JPG",
+        "title": "IMG 2662",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC0326.jpg",
-        "title": "DSC 0326",
+        "src": "/images/baller-league/IMG_2663.JPG",
+        "title": "IMG 2663",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC7311.jpg",
-        "title": "DSC 7311",
+        "src": "/images/baller-league/IMG_2664.JPG",
+        "title": "IMG 2664",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2665.JPG",
+        "title": "IMG 2665",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2666.JPG",
+        "title": "IMG 2666",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2667.JPG",
+        "title": "IMG 2667",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2671.JPG",
+        "title": "IMG 2671",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2672.JPG",
+        "title": "IMG 2672",
+        "category": "BALLER LEAGUE"
+      },
+       {
+        "src": "/images/baller-league/IMG_2673.JPG",
+        "title": "IMG 2673",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC7461.jpg",
-        "title": "DSC 7461",
+        "src": "/images/baller-league/IMG_2681.JPG",
+        "title": "IMG 2681",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC7531.jpg",
-        "title": "DSC 7531",
+        "src": "/images/baller-league/IMG_2682.JPG",
+        "title": "IMG 2682",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC7936.jpg",
-        "title": "DSC 7936",
+        "src": "/images/baller-league/IMG_2683.JPG",
+        "title": "IMG 2683",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8083.jpg",
-        "title": "DSC 8083",
+        "src": "/images/baller-league/IMG_2684.jpg",
+        "title": "IMG 2684",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8122.jpg",
-        "title": "DSC 8122",
+        "src": "/images/baller-league/IMG_2685.JPG",
+        "title": "IMG 2685",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8156.jpg",
-        "title": "DSC 8156",
+        "src": "/images/baller-league/SCRL_0125.jpg",
+        "title": "SCRL 0125",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8157.jpg",
-        "title": "DSC 8157",
+        "src": "/images/baller-league/SCRL_0128.jpg",
+        "title": "SCRL 0128",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8636.jpg",
-        "title": "DSC 8636",
+        "src": "/images/baller-league/SCRL_0130.jpg",
+        "title": "SCRL 0130",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8727.jpg",
-        "title": "DSC 8727",
+        "src": "/images/baller-league/SCRL_0137.jpg",
+        "title": "SCRL 0137",
         "category": "BALLER LEAGUE"
       },
       {
-        "src": "/images/baller-league/_DSC8810.jpg",
-        "title": "DSC 8810",
+        "src": "/images/baller-league/SCRL_0138.jpg",
+        "title": "SCRL 0138",
         "category": "BALLER LEAGUE"
       },
-      {
-        "src": "/images/baller-league/_DSC8878.jpg",
-        "title": "DSC 8878",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC8911.jpg",
-        "title": "DSC 8911",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC8932.jpg",
-        "title": "DSC 8932",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9137.jpg",
-        "title": "DSC 9137",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9197.jpg",
-        "title": "DSC 9197",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9906.jpg",
-        "title": "DSC 9906",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9965.jpg",
-        "title": "DSC 9965",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9970.jpg",
-        "title": "DSC 9970",
-        "category": "BALLER LEAGUE"
-      },
-      {
-        "src": "/images/baller-league/_DSC9991.jpg",
-        "title": "DSC 9991",
-        "category": "BALLER LEAGUE"
-      }
     ]
   },
-
+  
   {
     "name": "LUCOZADE CUP",
     "slug": "lucazade-cup",
@@ -1081,7 +980,47 @@ export const collections = [
         "src": "/images/non-league-football/img_5976.jpg",
         "title": "IMG 5976",
         "category": "NON-LEAGUE FOOTBALL"
-      }
+      },
+      {
+        "src": "/images/non-league-football/IMG_2525.JPG",
+        "title": "IMG 2525",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2526.JPG",
+        "title": "IMG 2526",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2527.JPG",
+        "title": "IMG 2527",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2528.JPG",
+        "title": "IMG 2528",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2529.JPG",
+        "title": "IMG 2529",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2530.JPG",
+        "title": "IMG 2530",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2531.JPG",
+        "title": "IMG 2531",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
+      {
+        "src": "/images/non-league-football/IMG_2532.JPG",
+        "title": "IMG 2532",
+        "category": "NON-LEAGUE FOOTBALL"
+      },
     ]
   },
 
@@ -1676,6 +1615,392 @@ export const collections = [
         "src": "/images/FA Youth Cup/IMG_1525.JPG",
         "title": "IMG 1525",
         "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1933.JPG",
+        "title": "IMG 1933",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1934.JPG",
+        "title": "IMG 1934",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1936.JPG",
+        "title": "IMG 1936",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1937.JPG",
+        "title": "IMG 1937",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1938.JPG",
+        "title": "IMG 1938",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1939.JPG",
+        "title": "IMG 1939",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1940.JPG",
+        "title": "IMG 1940",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1941.JPG",
+        "title": "IMG 1941",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1942.JPG",
+        "title": "IMG 1942",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1943.JPG",
+        "title": "IMG 1943",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1944.JPG",
+        "title": "IMG 1944",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1945.JPG",
+        "title": "IMG 1945",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1946.JPG",
+        "title": "IMG 1946",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1947.JPG",
+        "title": "IMG 1947",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1948.JPG",
+        "title": "IMG 1948",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1949.JPG",
+        "title": "IMG 1949",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1950.JPG",
+        "title": "IMG 1950",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1951.JPG",
+        "title": "IMG 1951",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1952.JPG",
+        "title": "IMG 1952",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1953.JPG",
+        "title": "IMG 1953",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_1954.JPG",
+        "title": "IMG 1954",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/SCRL_0101.jpg",
+        "title": "SCRL 0101",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/SCRL_0102.jpg",
+        "title": "SCRL 0102",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/SCRL_0103.jpg",
+        "title": "SCRL 0103",
+        "category": "FA Youth Cup"
+      },
+    ]
+  },
+  {
+    "name": "WSL",
+    "slug": "WSL",
+    "photos": [
+      {
+        "src": "/images/WSL/IMG_2027.JPG",
+        "title": "IMG 2027",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2028.JPG",
+        "title": "IMG 2028",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2029.JPG",
+        "title": "IMG 2029",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2030.JPG",
+        "title": "IMG 2030",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2031.JPG",
+        "title": "IMG 2031",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2032.JPG",
+        "title": "IMG 2032",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2033.JPG",
+        "title": "IMG 2033",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2034.JPG",
+        "title": "IMG 2034",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2035.JPG",
+        "title": "IMG 2035",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2036.JPG",
+        "title": "IMG 2036",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2037.JPG",
+        "title": "IMG 2037",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2038.JPG",
+        "title": "IMG 2038",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2039.JPG",
+        "title": "IMG 2039",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2040.JPG",
+        "title": "IMG 2040",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2041.JPG",
+        "title": "IMG 2041",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2042.JPG",
+        "title": "IMG 2042",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2043.JPG",
+        "title": "IMG 2043",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2044.JPG",
+        "title": "IMG 2044",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2045.JPG",
+        "title": "IMG 2045",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2046.JPG",
+        "title": "IMG 2046",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2047.JPG",
+        "title": "IMG 2047",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2048.JPG",
+        "title": "IMG 2048",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2049.JPG",
+        "title": "IMG 2049",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2050.JPG",
+        "title": "IMG 2050",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2051.JPG",
+        "title": "IMG 2051",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2052.JPG",
+        "title": "IMG 2052",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2053.JPG",
+        "title": "IMG 2053",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2054.JPG",
+        "title": "IMG 2054",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2421.JPG",
+        "title": "IMG 2421",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2422.JPG",
+        "title": "IMG 2422",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2426.JPG",
+        "title": "IMG 2426",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2427.JPG",
+        "title": "IMG 2427",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2428.JPG",
+        "title": "IMG 2428",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2429.JPG",
+        "title": "IMG 2429",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2430.JPG",
+        "title": "IMG 2430",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2431.JPG",
+        "title": "IMG 2431",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2432.JPG",
+        "title": "IMG 2432",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2433.JPG",
+        "title": "IMG 2433",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2434.JPG",
+        "title": "IMG 2434",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2435.JPG",
+        "title": "IMG 2435",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2436.JPG",
+        "title": "IMG 2436",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2437.JPG",
+        "title": "IMG 2437",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2438.JPG",
+        "title": "IMG 2438",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2439.JPG",
+        "title": "IMG 2439",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2440.JPG",
+        "title": "IMG 2440",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2441.JPG",
+        "title": "IMG 2441",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2442.JPG",
+        "title": "IMG 2442",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2443.JPG",
+        "title": "IMG 2443",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2446.JPG",
+        "title": "IMG 2446",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2447.JPG",
+        "title": "IMG 2447",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/IMG_2448.JPG",
+        "title": "IMG 2448",
+        "category": "WSL"
+      },
+      {
+        "src": "/images/WSL/SCRL_0146.jpg",
+        "title": "SCRL 0146",
+        "category": "WSL"
       },
     ]
   }
