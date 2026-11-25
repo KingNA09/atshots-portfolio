@@ -1,4 +1,13 @@
-export const collections = [
+const order = [
+  "baller-league",
+  "FA Youth Cup",
+  "WSL",
+  "padel",
+  "nike-toma",
+  "1-1-coaching",
+];
+
+const allCollections = [
   {
     "name": "1-1 COACHING",
     "slug": "1-1-coaching",
@@ -511,6 +520,86 @@ export const collections = [
       {
         "src": "/images/baller-league/SCRL_0138.jpg",
         "title": "SCRL 0138",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2863.JPG",
+        "title": "IMG 2863",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2865.JPG",
+        "title": "IMG 2865",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2866.JPG",
+        "title": "IMG 2866",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2868.JPG",
+        "title": "IMG 2868",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2870.JPG",
+        "title": "IMG 2870",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2876.JPG",
+        "title": "IMG 2876",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2880.JPG",
+        "title": "IMG 2880",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2890.JPG",
+        "title": "IMG 2890",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2891.JPG",
+        "title": "IMG 2891",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2892.JPG",
+        "title": "IMG 2892",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2893.JPG",
+        "title": "IMG 2893",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2894.JPG",
+        "title": "IMG 2894",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2895.JPG",
+        "title": "IMG 2895",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2896.JPG",
+        "title": "IMG 2896",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2897.JPG",
+        "title": "IMG 2897",
+        "category": "BALLER LEAGUE"
+      },
+      {
+        "src": "/images/baller-league/IMG_2898.JPG",
+        "title": "IMG 2898",
         "category": "BALLER LEAGUE"
       },
     ]
@@ -1736,6 +1825,201 @@ export const collections = [
         "title": "SCRL 0103",
         "category": "FA Youth Cup"
       },
+      {
+        "src": "/images/FA Youth Cup/IMG_2719.JPG",
+        "title": "IMG 2719",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2720.JPG",
+        "title": "IMG 2720",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2722.JPG",
+        "title": "IMG 2722",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2724.JPG",
+        "title": "IMG 2724",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2725.JPG",
+        "title": "IMG 2725",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2726.JPG",
+        "title": "IMG 2726",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2727.JPG",
+        "title": "IMG 2727",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2728.JPG",
+        "title": "IMG 2728",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2729.JPG",
+        "title": "IMG 2729",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2730.JPG",
+        "title": "IMG 2730",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2732.JPG",
+        "title": "IMG 2732",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2733.JPG",
+        "title": "IMG 2733",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2734.JPG",
+        "title": "IMG 2734",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2735.JPG",
+        "title": "IMG 2735",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2736.JPG",
+        "title": "IMG 2736",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2737.JPG",
+        "title": "IMG 2737",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2738.JPG",
+        "title": "IMG 2738",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2740.JPG",
+        "title": "IMG 2740",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2741.JPG",
+        "title": "IMG 2741",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2742.JPG",
+        "title": "IMG 2742",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2743.JPG",
+        "title": "IMG 2743",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2744.JPG",
+        "title": "IMG 2744",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2745.JPG",
+        "title": "IMG 2745",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2746.JPG",
+        "title": "IMG 2746",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2747.JPG",
+        "title": "IMG 2747",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2748.JPG",
+        "title": "IMG 2748",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2749.JPG",
+        "title": "IMG 2749",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2750.JPG",
+        "title": "IMG 2750",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2751.JPG",
+        "title": "IMG 2751",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2752.JPG",
+        "title": "IMG 2752",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2753.JPG",
+        "title": "IMG 2753",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2754.JPG",
+        "title": "IMG 2754",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2755.JPG",
+        "title": "IMG 2755",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2756.JPG",
+        "title": "IMG 2756",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2757.JPG",
+        "title": "IMG 2757",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2758.JPG",
+        "title": "IMG 2758",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2759.JPG",
+        "title": "IMG 2759",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2763.JPG",
+        "title": "IMG 2763",
+        "category": "FA Youth Cup"
+      },
+      {
+        "src": "/images/FA Youth Cup/IMG_2764.JPG",
+        "title": "IMG 2764",
+        "category": "FA Youth Cup"
+      },
     ]
   },
   {
@@ -2005,3 +2289,7 @@ export const collections = [
     ]
   }
 ];
+export const collections = [
+  ...order.map((slug) => allCollections.find((c) => c.slug === slug)),
+  ...allCollections.filter((c) => !order.includes(c.slug)),
+].filter(Boolean);
